@@ -1,0 +1,13 @@
+#all-projects {
+  grid-template-columns: 2fr 4fr;
+}
+
+@media (max-width: 768px) {
+  #all-projects {
+    grid-template-columns: 1fr;
+  }
+}
+
+.img-prev-con {
+  backdrop-filter: blur(4px);
+}
